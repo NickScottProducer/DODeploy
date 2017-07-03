@@ -19,7 +19,7 @@ def ask():
     proxies = input("How many proxies?")
     for i in range (int(proxies)):    
         droplet.create()
-        print('You just deployed ' + str(proxies) + ' proxies.')
+        continue
+    print('You just deployed ' + str(proxies) + ' proxies.')
         
 ask()
-
