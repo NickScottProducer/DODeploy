@@ -44,5 +44,5 @@ droplet = digitalocean.Droplet(token=api_token,
 for i in range(int(numOfProxies)):
         droplet.create()
         continue
-print('You just deployed ' + str(numOfProxies) + 'proxies.')
+print('You just deployed ' + str(numOfProxies) + ' proxies.')
 
