@@ -1,7 +1,7 @@
 import digitalocean
 
 api_token = input('Enter your API token:')
-location = input('Enter where you want your proxies located[NY1 or NY2, SanFran1 or SanFran2, Amsterdam1 or Amsterdam2, Singapore, UK, Germany, Canada, Bangalore :')
+location = input('Enter where you want your proxies located[NY1 or NY2, SanFran1 or SanFran2, Amsterdam1 or Amsterdam2, Singapore, UK, Germany, Canada, Bangalore]:')
 numOfProxies = input('Enter number of proxies you want to deploy:')
 
 if location == 'NY1':
